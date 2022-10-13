@@ -1,3 +1,8 @@
+const input = prompt("What's your xxx?");
+
+console.log(input)
+
+
 function onlySpecialchars(str)
       {
         // Regex to check if a string
@@ -8,7 +13,7 @@ function onlySpecialchars(str)
         // If the string is empty
         // then print No
         if (str.length < 1) {
-          document.write("No");
+          console.log("please enter a password");
           return;
         }
  
