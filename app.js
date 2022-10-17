@@ -1,3 +1,7 @@
+// install npm
+// install prompt packages from npm
+// import prompt
+
 const input = prompt("What's your xxx?");
 
 console.log(input)
